@@ -102,3 +102,10 @@ li img{
     color: white;
     cursor: pointer;
 }
+
+button{
+    background-color: skyblue;
+    height: 30px;
+    width: 70px;
+    border-radius: 10px;
+}
