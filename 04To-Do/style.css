@@ -44,8 +44,8 @@ input{
     width: 15%;
     height: 80%;
     margin: 20px ;
-    background-color: rgb(9, 154, 55);
-    color: white;
+    background-color: rgb(140, 250, 6);
+    color: rgb(0, 0, 0);
     cursor: pointer;
 }
 ul{
