@@ -17,7 +17,7 @@ body{
 .main{
     background-color: rgba(114, 114, 114, 0.458);
     height: 500px;
-    width: 300px;
+    width: 400px;
     border-radius: 20px;
     object-fit: fill;
     overflow: hidden;
@@ -44,8 +44,8 @@ input{
     width: 15%;
     height: 80%;
     margin-left: 20px ;
-    background-color: rgb(140, 250, 6);
-    color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     cursor: pointer;
 }
 ul{
