@@ -2,7 +2,6 @@ let AddWork=document.getElementById("Add")
 let TaskList=document.getElementById("TaskList")
 
 AddWork.addEventListener("click",function(){
-console.log(TaskList);
         
         let taskInput=document.getElementById("Input");
         if(taskInput.value.trim()==""){ 
@@ -65,3 +64,19 @@ console.log(TaskList);
         })
 })
 
+let Reset=document.getElementById("Reset")
+Reset.addEventListener("click",function(){
+    TaskList.innerHTML=""
+})
+
+let DoAgain=document.getElementById("DoAgain")
+DoAgain.addEventListener("click",function(){
+    let Checkbox=document.querySelectorAll(".Checkbox")
+    let Task=document.querySelectorAll(".Task")
+    Checkbox.forEach(IMG=>{
+        IMG.src="circle.png"
+    })
+    Task.forEach(para=>{
+        para.classList.remove("cut")
+    })
+})
