@@ -39,7 +39,7 @@ console.log(TaskList);
          
          let deleteButton=document.createElement("button")
          deleteButton.classList.add("delete")
-         deleteButton.textContent="DELETE"
+         deleteButton.textContent="X"
 
 
 
