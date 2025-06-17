@@ -17,7 +17,7 @@ body{
 .main{
     background-color: rgba(114, 114, 114, 0.458);
     height: 500px;
-    width: 400px;
+    width: 350px;
     border-radius: 20px;
     object-fit: fill;
     overflow: hidden;
