@@ -17,7 +17,7 @@ body{
 .main{
     background-color: rgba(114, 114, 114, 0.458);
     height: 500px;
-    width: 350px;
+    width: 300px;
     border-radius: 20px;
     object-fit: fill;
     overflow: hidden;
@@ -44,14 +44,14 @@ input{
     width: 15%;
     height: 80%;
     margin-left: 20px ;
-    background-color: rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
+    background-color: rgb(140, 250, 6);
+    color: rgb(0, 0, 0);
     cursor: pointer;
 }
 ul{
     list-style: none;
     padding: 10px;
-    height: 70%;
+    height: 65%;
     width: 100%;
     overflow: scroll;
     border-top: 2px solid rgba(255, 255, 255, 0.452);
@@ -102,7 +102,6 @@ li img{
     color: white;
     cursor: pointer;
 }
-
 button{
     background-color: skyblue;
     height: 30px;
